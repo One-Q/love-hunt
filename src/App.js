@@ -25,7 +25,6 @@ function App() {
   const lastStep = localStorage.getItem('lastStep');
 
   useEffect(() => {
-    console.log(hasAlreadyStarted)
     if (hasAlreadyStarted) setStarted(JSON.parse(hasAlreadyStarted));
   }, [hasAlreadyStarted]);
 
@@ -52,8 +51,6 @@ function App() {
     setStep(null);
     setStarted(false);
   }
-
-  console.log({ step, started })
 
   return (
     <ThemeProvider theme={theme}>

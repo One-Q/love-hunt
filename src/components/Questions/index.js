@@ -17,8 +17,6 @@ const Questions = ({ step, goToNextStep, reset }) => {
     else setError(true);
   }
 
-  console.log({ step })
-
   return (
     <div>
       {step !== data.questions.length - 1 && (<p>Etape {step + 1}/{data.questions.length - 1}</p>)}
