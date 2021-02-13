@@ -13,7 +13,7 @@ export const data = {
       answer: 'fa925d5136fef657574c8af0bedf39234de69ebf',
     },
     {
-      question: 'Chez ton copain tu trouveras le dernier code, entouré de boîtes qui servent à regarder des images qui bougent',
+      question: 'Chez ton copain tu trouveras le dernier code, entouré de boîtes qui disent merci aux frères lumières',
       answer: 'b652099d4e5916c53df409b575a7f37b39c7c591',
     },
     {
