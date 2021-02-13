@@ -10,7 +10,7 @@ import Questions from './components/Questions';
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: '#1976D2',
+      main: '#7579ff',
     },
     secondary: {
       main: '#11cb5f',
